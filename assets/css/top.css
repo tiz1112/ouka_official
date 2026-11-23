@@ -1,0 +1,36 @@
+body{margin:0}
+*{box-sizing:border-box}
+a{color:#1A1A1A}a:hover{color:#A8354F}
+.sidetabs{display:flex}
+@media (max-width:760px){.sidetabs{display:none}}
+.ph{position:relative;background-color:#B9A794}
+.ph-label{position:absolute;left:16px;bottom:16px;margin:0;padding:4px 10px;background:rgba(255,255,255,0.9);color:#1A1A1A;font-size:11px;line-height:1.6;letter-spacing:0.04em}
+.ph-hero{background:radial-gradient(ellipse 46% 52% at 74% 30%,rgba(238,226,206,0.95),rgba(238,226,206,0) 100%),radial-gradient(ellipse 40% 46% at 28% 72%,rgba(178,134,98,0.9),rgba(178,134,98,0) 100%),radial-gradient(ellipse 34% 40% at 88% 86%,rgba(118,136,110,0.85),rgba(118,136,110,0) 100%),radial-gradient(ellipse 30% 36% at 10% 16%,rgba(216,194,164,0.8),rgba(216,194,164,0) 100%),linear-gradient(160deg,#B6A28C 0%,#8A735F 55%,#5C4C41 100%)}
+.ph-desk{background:url(../img/blocks.jpg);background:image-set(url(../img/blocks.webp) type("image/webp"),url(../img/blocks.jpg) type("image/jpeg")) center/cover no-repeat}
+.ph-tools{background:url(../img/therapy.jpg);background:image-set(url(../img/therapy.webp) type("image/webp"),url(../img/therapy.jpg) type("image/jpeg")) center/cover no-repeat}
+.ph-room{background:url(../img/room.jpg);background:image-set(url(../img/room.webp) type("image/webp"),url(../img/room.jpg) type("image/jpeg")) center/cover no-repeat}
+.ph-meeting{background:url(../img/whiteboard.jpg);background:image-set(url(../img/whiteboard.webp) type("image/webp"),url(../img/whiteboard.jpg) type("image/jpeg")) left center/cover no-repeat}
+.ph-papers{background:url(../img/folder.jpg);background:image-set(url(../img/folder.webp) type("image/webp"),url(../img/folder.jpg) type("image/jpeg")) center/cover no-repeat}
+.ph-recruit{background:url(../img/seminar.jpg);background:image-set(url(../img/seminar.webp) type("image/webp"),url(../img/seminar.jpg) type("image/jpeg")) center/cover no-repeat}
+
+/* ---- static site additions ---- */
+.skip{position:absolute;left:8px;top:-60px;z-index:100;padding:12px 18px;background:#1A1A1A;color:#FFFFFF;font-size:14px;text-decoration:none}
+.skip:focus{top:8px}
+:focus-visible{outline:2px solid #A8354F;outline-offset:3px}
+.map{width:100%;min-height:320px;height:100%;border:0;display:block;background:#F7F5F2}
+.mapbox{display:flex;flex-direction:column;gap:14px}
+.mapbox .btn{align-self:flex-start}
+.hp{position:absolute!important;left:-10000px!important;width:1px;height:1px;overflow:hidden}
+.formnote{margin:0;font-size:13px;line-height:1.8;color:#6B6B6B}
+.msg{margin:0;padding:20px 24px;border-left:3px solid #A8354F;background:#F4F3F1;font-size:14px;line-height:1.9}
+.msg ul{margin:8px 0 0;padding-left:1.2em}
+h1,h2,.h2 .j{word-break:auto-phrase}
+.phero h1 .jt{display:block;margin-top:10px;font-size:15px;font-weight:500;letter-spacing:0.06em;color:#6B6B6B}
+.jl{margin:0;padding-left:1.3em;font-size:15px;line-height:2;color:#1A1A1A}
+.jobcard{text-decoration:none;color:#1A1A1A;border-color:#E4E1DC}
+.jobcard:hover{border-color:#1A1A1A}
+.jobcard .t{font-size:20px;font-weight:700}
+.jobcard .d{font-size:14px;line-height:1.9;color:#4A4A4A}
+.joblinks a{color:#1A1A1A}
+select.input{min-height:52px}
+@media (prefers-reduced-motion: reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
